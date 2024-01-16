@@ -136,4 +136,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // 1분마다 이미지 업데이트
     setInterval(updateImage, 60000);
 });
-
