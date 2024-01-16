@@ -129,7 +129,10 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (currentDay === 6) { // 토요일에는 항상 rest time 이미지 표시
             imageUrl = 'https://github.com/github.com/grxxtseoyxxn/notion/raw/main/rest_time.jpg.png';
         }
-
+        // imageUrl이 정의되지 않은 경우 기본 이미지로 설정
+        if (!imageUrl) {
+            imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/rest_time.jpg.png';
+        }
         imageElement.src = imageUrl;
     }
 
