@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/study_5.jpg.png';
             }
             // 오후 6시부터 오후 7시까지
-            else if (currentHour === 18 && currentMinute >= 0 && && currentMinute <= 59) {
+            else if (currentHour === 18 && currentMinute >= 0 && currentMinute <= 59) {
                 imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/meal.jpg.png';
             }
             // 오후 7시부터 오후 8시 30분까지
