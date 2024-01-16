@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // GitHub에서 이미지 URL을 가져오는 함수
     async function getImageUrl() {
         try {
-            const response = await fetch('URL_이미지가_있는_웹페이지');
+            const response = await fetch('https://images.beta.cosmos.so/6b66af99-9aca-4502-9fde-bbb6a330bf56?format=jpeg');
             const data = await response.json();
             return data.imageUrl;
         } catch (error) {
