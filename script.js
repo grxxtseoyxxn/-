@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const imageElement = document.querySelector('img');
+    const imageElement = document.getElementById('dynamicImage');
 
     function updateImage() {
         const currentDate = new Date();
@@ -75,7 +75,6 @@ document.addEventListener('DOMContentLoaded', function() {
         else if (currentDay === 6) {
             imageUrl = 'rest_time.jpg.png';
         }
-
         imageElement.src = imageUrl;
     }
 
