@@ -3,13 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateImage() {
         const currentDate = new Date();
+        const koreanDateString = currentDate.toLocaleString('en-US', { timeZone: 'Asia/Seoul' });
+        console.log('현재 한국 시간: ', koreanDateString);
+
         const currentDay = currentDate.getDay(); // 0: 일요일, 1: 월요일, ..., 6: 토요일
         const currentHour = currentDate.getHours();
         const currentMinute = currentDate.getMinutes();
-        
-        // 한국 시간대로 출력
-        const koreanDateString = currentDate.toLocaleString('en-US', { timeZone: 'Asia/Seoul' });
-        console.log('현재 한국 시간: ', koreanDateString);
         
         let imageUrl;
 
