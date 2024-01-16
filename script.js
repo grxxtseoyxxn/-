@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/rest_time.jpg.png';
             }
             // 오전 10시 15분부터 오후 12시까지
-            else if ((currentHour === 10 && currentMinute >= 15) || (currentHour > 10 && currentHour < 12)) {
+            else if (currentHour === 10 && (currentMinute >= 15 && currentHour < 12)) {
                 imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/study_2.jpg.png';
             }
             // 오후 12시부터 오후 1시까지
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/rest_time.jpg.png';
             }
             // 오전 10시 15분부터 오후 12시까지
-            else if ((currentHour === 10 && currentMinute >= 15) || (currentHour > 10 && currentHour < 12)) {
+            else if (currentHour === 10 && (currentMinute >= 15 && currentHour < 12)) {
                 imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/study_2.jpg.png';
             }
             // 오후 12시부터 오후 1시까지
