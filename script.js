@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const currentHour = currentDate.getHours();
         const currentMinute = currentDate.getMinutes();
         
-        let imageUrl;
+        let imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/rest_time.jpg.png';
 
         // 월, 수, 금, 일요일에 다른 이미지 표시
         if ([1, 3, 5, 0].includes(currentDay)) {
@@ -129,13 +129,8 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (currentDay === 6) { // 토요일에는 항상 rest time 이미지 표시
             imageUrl = 'https://github.com/github.com/grxxtseoyxxn/notion/raw/main/rest_time.jpg.png';
         }
-        // imageUrl이 정의되지 않은 경우 기본 이미지로 설정
-        if (!imageUrl) {
-            imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/rest_time.jpg.png';
-        }
-        imageElement.src = imageUrl;
+          imageElement.src = imageUrl;
     }
-
     // 초기에 이미지 업데이트
     updateImage();
 
