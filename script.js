@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             // 오후 2시 45분부터 오후 4시 15분까지            
             else if (currentHour === 14 && currentMinute >= 45) || (currentHour === 15 && currentMinute <= 15)) {
-                imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/study_4.jpg.png';
+                imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/study_4.jpg.png?timestamp=${new Date().getTime()';
             }
             // 오후 4시 15분부터 오후 4시 30분까지            
             else if (currentHour === 16 && currentMinute >= 0 && currentMinute <= 15) {
