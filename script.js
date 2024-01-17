@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 imageUrl = 'https://github.com/grxxtseoyxxn/notion/raw/main/sleep.jpg.png';
             }  
             else {
-                imageUrl = 'https://github.com/github.com/grxxtseoyxxn/notion/raw/main/sleep_image.jpg'; // 기본 이미지
+                imageUrl = 'https://github.com/github.com/grxxtseoyxxn/notion/raw/main/sleep.jpg.png'; // 기본 이미지
             }
         } else if ([2, 4].includes(currentDay)) { // 화, 목요일에 다른 이미지 표시
             // 오전 7시부터 오전 8시 30분까지
